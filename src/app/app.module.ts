@@ -5,10 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppHttpModule } from './app-http/app-http.module';
+import { DataExporterComponent } from './data-exporter/data-exporter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataExporterComponent
   ],
   imports: [
     BrowserModule,
